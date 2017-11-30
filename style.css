@@ -70,10 +70,10 @@ input:visited {
 
 footer {
   color: #FB6964;
-  position: absolute;
-  bottom:2%;
+  position: relative;
+  margin-top: 18%;
   /*color: white;*/
-  left: 90%;
+  left: 40%;
 }
 .red {
   color: red;
