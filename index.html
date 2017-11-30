@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1><i class="fa fa-wikipedia-w" aria-hidden="true"></i>ikipedia search</h1>
+    <div class="search">
+      <input type="text" name="search">
+      <div>
+        <a title="Search Now" href="#" id="submit" class="submit"><i class="fa fa-search" aria-hidden="true"></i></a><a title="Random Page" class="submit" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><i class="fa fa-random" aria-hidden="true"></i></a>
+      </div>
+    </div>
+
+    <div class="loading">
+      <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="content">
+
+    </div>
+    <footer>
+      <h4>Made with <i class="fa fa-heart red" aria-hidden="true"></i> By <strong>Ma'zon<strong></h4>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
